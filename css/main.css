@@ -449,7 +449,7 @@ body:before{
     text-align: center;
     font-size: 2.5rem;
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     letter-spacing: 2px;
 }
 
@@ -506,8 +506,8 @@ body:before{
 
 .section-header {
     font-size: 4rem;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .flip-card {
