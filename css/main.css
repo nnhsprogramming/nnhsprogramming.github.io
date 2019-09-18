@@ -507,7 +507,7 @@ body:before{
 .section-header {
     font-size: 4rem;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .flip-card {
