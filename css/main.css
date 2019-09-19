@@ -512,7 +512,7 @@ body:before{
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 275px;
     height: 300px;
     perspective: 1000px;
     margin: 50px;
