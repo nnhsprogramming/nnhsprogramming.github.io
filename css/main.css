@@ -13,11 +13,18 @@ Custom styles written in order they appear in the index.html
   html {
     font-size: 55%;
   }
+  .header .mission .about .projects{
+    background-attachment: none;
+  }
+
 }
 
 @media (max-width: 700px) {
   .project-header {
     text-align: center;
+  }
+  .header .mission .about .projects{
+    background-attachment: none;
   }
 }
 
@@ -32,6 +39,9 @@ Custom styles written in order they appear in the index.html
     float: none;
     padding: 0.5rem;
   }
+  .header .mission .about .projects{
+    background-attachment: none;
+  }
 }
 
 @media (max-width: 1230px) {
@@ -45,6 +55,9 @@ Custom styles written in order they appear in the index.html
   div.custom-layout {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .header .mission .about .projects{
+    background-attachment: none;
   }
 }
 
@@ -74,16 +87,26 @@ Custom styles written in order they appear in the index.html
   .mission-img {
     height: 16vh;
   } 
+  .header .mission .about .projects{
+    background-attachment: none;
+  }
 }
 
 @media (max-width: 600px) {
   .mission-statement {
     text-align: center;
   }
+  .header .mission .about .projects{
+    background-attachment: none;
+  }
 
   .mission-img {
     width: 100%;
     padding: 0 15vw ;
+  }
+
+  .header .mission .about .projects{
+    background-attachment: none;
   }
 }
 
@@ -123,6 +146,10 @@ Custom styles written in order they appear in the index.html
     font-size: 2rem;
     width: 40vw;
   }
+
+  .header .mission .about .projects{
+    background-attachment: none;
+  }
 }
 
 @media (max-width: 320px) {
@@ -142,6 +169,10 @@ Custom styles written in order they appear in the index.html
   .learn-more {
     font-size: 1.5rem;
     width: 50vw;
+  }
+
+  .header .mission .about .projects{
+    background-attachment: none;
   }
 }
 
@@ -461,7 +492,7 @@ body:before{
     text-align: center;
     font-size: 3.5rem;
     font-weight: 900;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     letter-spacing: 2px;
 }
 
@@ -521,7 +552,7 @@ body:before{
 
 .about {
     /*background-image: linear-gradient(to right bottom, rgba(64, 64, 64, 0.8), rgba(0, 0, 0, 0.8)), url(../img/codingImg.jpg);*/
-    background-image: url(https://coolbackgrounds.io/images/unsplash/martin-jernberg-unsplash-medium-38843106.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://coolbackgrounds.io/images/unsplash/martin-jernberg-unsplash-medium-38843106.jpg);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -658,8 +689,8 @@ body:before{
 }
 
 .projects {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);    /*background: linear-gradient(to bottom, #F8F8F8, #fff);*/
-    padding: 100px 30vw 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);    /*background: linear-gradient(to bottom, #F8F8F8, #fff);*/
+    padding: 75px 30vw 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -715,8 +746,7 @@ body:before{
     padding-bottom: 75px;
     height: 25vh;
     background: linear-gradient(to bottom, rgba(40, 40, 40, 0.8), rgba(0, 0, 0, 0.8)), url(../img/codingMyth.jpg);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://wallpaperbro.com/img/591404.png);
-    background-attachment: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(https://wallpaperbro.com/img/591404.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
